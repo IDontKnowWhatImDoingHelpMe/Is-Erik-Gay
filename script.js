@@ -116,7 +116,7 @@ yesBtn.addEventListener('click', () => {
     yesClickCount++;
     // Increase the size of No buttons and move Yes button
     noBtnSize += 0.2;
-    noBtnOffset -= 5;
+    noBtnOffset -= 4;
 
     noButtonsContainer.querySelectorAll('.button.red').forEach(btn => {
         btn.style.transform = `scale(${noBtnSize})`; // Apply the new size to all No buttons
